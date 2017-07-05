@@ -38,12 +38,13 @@ npm target script
 In dev source package.json
 
 
-``clean-build: rm -rf  nginx-vue/static; rm -rf  nginx-vue/index.html;``
+``clean-build: rm -rf  nginx-ng4/static; rm -rf  nginx-ng4/index.html;``
 
-``cp -r <dev-source>/dist/* nginx-vue/``
+``cp -r <dev-source>/dist/* nginx-ng4/``
 
 Size
 ----
 
-static     385 KB
-index.html   4   KB
+256K	./static/css
+1.2M	./static/js
+
